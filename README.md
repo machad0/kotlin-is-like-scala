@@ -1,7 +1,7 @@
 
-# Swift is like Scala 
+# Kotlin is like Scala 
 
-SOON
+Based on all Swift is like whatever. All the Kotlin Snippets originally came from the Swift is like Kotlin repo
 
 ### License
 
