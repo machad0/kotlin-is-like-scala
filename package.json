@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "jiyinyiyong, nilhcem",
+  "author": "jiyinyiyong, nilhcem, lucas",
   "license": "MIT",
   "devDependencies": {
     "mission": "0.0.7",
@@ -18,11 +18,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Nilhcem/swift-is-like-kotlin.git"
+    "url": "https://github.com/machad0/swift-is-like-kotlin.git"
   },
   "keywords": [
-    "swift",
-    "kotlin"
+    "kotlin",
+    "scala"
   ],
   "bugs": {
     "url": "https://github.com/Nilhcem/swift-is-like-kotlin/issues"
