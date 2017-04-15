@@ -2,7 +2,7 @@ doctype
 
 html
   head
-    title "Swift is like Kotlin"
+    title "Scala is like Kotlin"
     meta (:charset utf-8)
     link (:rel stylesheet) (:href css/style.css)
     link (:rel stylesheet) (:href css/highlightjs-github.css)
@@ -11,94 +11,91 @@ html
 
   body
     a (:target _blank)
-      :href https://github.com/Nilhcem/swift-is-like-kotlin
-      img#fork-me (:src http://nilhcem.github.io/swift-is-like-kotlin/fork-me.png)
+      :href https://github.com/Nilhcem.scala-is-like-kotlin
+      img#fork-me (:src http://nilhcem.github.io.scala-is-like-kotlin/fork-me.png)
     #note
-      = "Swift is like Kotlin"
+      = "Kotlin is like Scala"
 
     .section
       .title BASICS
       .case (.name "Hello World") $ .pair
-        .card (.lang Swift) $ pre.code $ code (@insert ../code/hello-world.swift)
         .card (.lang Kotlin) $ pre.code $ code (@insert ../code/hello-world.kt)
+        .card (.lang Scala) $ pre.code $ code (@insert ../code/hello-world.scala)
       .case (.name "Variables And Constants") $ .pair
-        .card (.lang Swift) $ pre.code $ code (@insert ../code/variables-and-constants.swift)
-        .card (.lang Kotlin) $ pre.code $ code (@insert ../code/variables-and-constants.kt)
-      .case (.name "Explicit Types") $ .pair
-        .card (.lang Swift) $ pre.code $ code (@insert ../code/explicit-types.swift)
         .card (.lang Kotlin) $ pre.code $ code (@insert ../code/explicit-types.kt)
+        .card (.lang Scala) $ pre.code $ code (@insert ../code/explicit-types.scala)
       .case (.name "Type Coercion") $ .pair
-        .card (.lang Swift) $ pre.code $ code (@insert ../code/type-coercion.swift)
         .card (.lang Kotlin) $ pre.code $ code (@insert ../code/type-coercion.kt)
+        .card (.lang Scala) $ pre.code $ code (@insert ../code/type-coercion.scala)
       .case (.name "String Interpolation") $ .pair
-        .card (.lang Swift) $ pre.code $ code (@insert ../code/string-interpolation.swift)
         .card (.lang Kotlin) $ pre.code $ code (@insert ../code/string-interpolation.kt)
+        .card (.lang Scala) $ pre.code $ code (@insert ../code/string-interpolation.scala)
       .case (.name "Range Operator") $ .pair
-        .card (.lang Swift) $ pre.code $ code (@insert ../code/range-operator.swift)
         .card (.lang Kotlin) $ pre.code $ code (@insert ../code/range-operator.kt)
+        .card (.lang Scala) $ pre.code $ code (@insert ../code/range-operator.scala)
       .case (.name "Inclusive Range Operator") $ .pair
-        .card (.lang Swift) $ pre.code $ code (@insert ../code/inclusive-range-operator.swift)
         .card (.lang Kotlin) $ pre.code $ code (@insert ../code/inclusive-range-operator.kt)
+        .card (.lang Scala) $ pre.code $ code (@insert ../code/inclusive-range-operator.scala)
 
     .section
       .title BASICS
       .case (.name "Arrays") $ .pair
-        .card (.lang Swift) $ pre.code $ code (@insert ../code/arrays.swift)
         .card (.lang Kotlin) $ pre.code $ code (@insert ../code/arrays.kt)
+        .card (.lang Scala) $ pre.code $ code (@insert ../code/arrays.scala)
       .case (.name "Maps") $ .pair
-        .card (.lang Swift) $ pre.code $ code (@insert ../code/maps.swift)
         .card (.lang Kotlin) $ pre.code $ code (@insert ../code/maps.kt)
+        .card (.lang Scala) $ pre.code $ code (@insert ../code/maps.scala)
       .case (.name "Empty Collections") $ .pair
-        .card (.lang Swift) $ pre.code $ code (@insert ../code/empty-collections.swift)
         .card (.lang Kotlin) $ pre.code $ code (@insert ../code/empty-collections.kt)
+        .card (.lang Scala) $ pre.code $ code (@insert ../code/empty-collections.scala)
 
     .section
       .title FUNCTIONS
       .case (.name "Functions") $ .pair
-        .card (.lang Swift) $ pre.code $ code (@insert ../code/functions.swift)
         .card (.lang Kotlin) $ pre.code $ code (@insert ../code/functions.kt)
+        .card (.lang Scala) $ pre.code $ code (@insert ../code/functions.scala)
       .case (.name "Tuple Return") $ .pair
-        .card (.lang Swift) $ pre.code $ code (@insert ../code/tuple-return.swift)
         .card (.lang Kotlin) $ pre.code $ code (@insert ../code/tuple-return.kt)
+        .card (.lang Scala) $ pre.code $ code (@insert ../code/tuple-return.scala)
       .case (.name "Variable Number Of Arguments") $ .pair
-        .card (.lang Swift) $ pre.code $ code (@insert ../code/variable-number-of-arguments.swift)
         .card (.lang Kotlin) $ pre.code $ code (@insert ../code/variable-number-of-arguments.kt)
+        .card (.lang Scala) $ pre.code $ code (@insert ../code/variable-number-of-arguments.scala)
       .case (.name "Function Type") $ .pair
-        .card (.lang Swift) $ pre.code $ code (@insert ../code/function-type.swift)
         .card (.lang Kotlin) $ pre.code $ code (@insert ../code/function-type.kt)
+        .card (.lang Scala) $ pre.code $ code (@insert ../code/function-type.scala)
       .case (.name "Map") $ .pair
-        .card (.lang Swift) $ pre.code $ code (@insert ../code/map.swift)
         .card (.lang Kotlin) $ pre.code $ code (@insert ../code/map.kt)
+        .card (.lang Scala) $ pre.code $ code (@insert ../code/map.scala)
       .case (.name "Sort") $ .pair
-        .card (.lang Swift) $ pre.code $ code (@insert ../code/sort.swift)
         .card (.lang Kotlin) $ pre.code $ code (@insert ../code/sort.kt)
+        .card (.lang Scala) $ pre.code $ code (@insert ../code/sort.scala)
       .case (.name "Named Arguments") $ .pair
-        .card (.lang Swift) $ pre.code $ code (@insert ../code/named-arguments.swift)
         .card (.lang Kotlin) $ pre.code $ code (@insert ../code/named-arguments.kt)
+        .card (.lang Scala) $ pre.code $ code (@insert ../code/named-arguments.scala)
 
     .section
       .title CLASSES
       .case (.name "Declaration") $ .pair
-        .card (.lang Swift) $ pre.code $ code (@insert ../code/declaration.swift)
         .card (.lang Kotlin) $ pre.code $ code (@insert ../code/declaration.kt)
+        .card (.lang Scala) $ pre.code $ code (@insert ../code/declaration.scala)
       .case (.name "Usage") $ .pair
-        .card (.lang Swift) $ pre.code $ code (@insert ../code/usage.swift)
         .card (.lang Kotlin) $ pre.code $ code (@insert ../code/usage.kt)
+        .card (.lang Scala) $ pre.code $ code (@insert ../code/usage.scala)
       .case (.name "Subclass") $ .pair
-        .card (.lang Swift) $ pre.code $ code (@insert ../code/subclass.swift)
         .card (.lang Kotlin) $ pre.code $ code (@insert ../code/subclass.kt)
+        .card (.lang Scala) $ pre.code $ code (@insert ../code/subclass.scala)
       .case (.name "Checking Type") $ .pair
-        .card (.lang Swift) $ pre.code $ code (@insert ../code/checking-type.swift)
         .card (.lang Kotlin) $ pre.code $ code (@insert ../code/checking-type.kt)
+        .card (.lang Scala) $ pre.code $ code (@insert ../code/checking-type.scala)
       .case (.name "Pattern Matching") $ .pair
-        .card (.lang Swift) $ pre.code $ code (@insert ../code/pattern-matching.swift)
         .card (.lang Kotlin) $ pre.code $ code (@insert ../code/pattern-matching.kt)
+        .card (.lang Scala) $ pre.code $ code (@insert ../code/pattern-matching.scala)
       .case (.name "Downcasting") $ .pair
-        .card (.lang Swift) $ pre.code $ code (@insert ../code/downcasting.swift)
         .card (.lang Kotlin) $ pre.code $ code (@insert ../code/downcasting.kt)
+        .card (.lang Scala) $ pre.code $ code (@insert ../code/downcasting.scala)
       .case (.name "Protocol") $ .pair
-        .card (.lang Swift) $ pre.code $ code (@insert ../code/protocol.swift)
         .card (.lang Kotlin) $ pre.code $ code (@insert ../code/protocol.kt)
+        .card (.lang Scala) $ pre.code $ code (@insert ../code/protocol.scala)
       .case (.name "Extensions") $ .pair
-        .card (.lang Swift) $ pre.code $ code (@insert ../code/extensions.swift)
         .card (.lang Kotlin) $ pre.code $ code (@insert ../code/extensions.kt)
+        .card (.lang Scala) $ pre.code $ code (@insert ../code/extensions.scala)
