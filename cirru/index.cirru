@@ -11,8 +11,8 @@ html
 
   body
     a (:target _blank)
-      :href https://github.com/Nilhcem.scala-is-like-kotlin
-      img#fork-me (:src http://nilhcem.github.io.scala-is-like-kotlin/fork-me.png)
+      :href https://github.com/machad0/kotlin-is-like-scala÷
+      img#fork-me (:src https://machad0.github.io/kotlin-is-like-scala/fork-me.png)
     #note
       = "Kotlin is like Scala"
 
