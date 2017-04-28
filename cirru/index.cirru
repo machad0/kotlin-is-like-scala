@@ -2,7 +2,7 @@ doctype
 
 html
   head
-    title "Scala is like Kotlin"
+    title "Kotlin is Like Scala"
     meta (:charset utf-8)
     link (:rel stylesheet) (:href css/style.css)
     link (:rel stylesheet) (:href css/highlightjs-github.css)
@@ -87,9 +87,6 @@ html
       .case (.name "Checking Type") $ .pair
         .card (.lang Kotlin) $ pre.code $ code (@insert ../code/checking-type.kt)
         .card (.lang Scala) $ pre.code $ code (@insert ../code/checking-type.scala)
-      .case (.name "Pattern Matching") $ .pair
-        .card (.lang Kotlin) $ pre.code $ code (@insert ../code/pattern-matching.kt)
-        .card (.lang Scala) $ pre.code $ code (@insert ../code/pattern-matching.scala)
       .case (.name "Downcasting") $ .pair
         .card (.lang Kotlin) $ pre.code $ code (@insert ../code/downcasting.kt)
         .card (.lang Scala) $ pre.code $ code (@insert ../code/downcasting.scala)
